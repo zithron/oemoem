@@ -1,0 +1,146 @@
+ /* STYLING UMUM */
+ /*styling semua untuk font*/
+
+ * {
+     font-family: 'Open Sans', sans-serif;
+ }
+ /*styling body*/
+
+ body {
+     margin: 0;
+     padding: 0;
+ }
+ /* AKHIR STYLING UMUM */
+
+/*MEMBUAT NAVBAR*/
+ ul {
+ 	top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*AKHIR MEMBUAT NAVBAR*/
+
+ /* STYLING BAGIAN PERTAMA */
+ #section1 {
+     padding-top: 300px;
+     padding-bottom: 300px;
+     padding-left: 125px;
+     padding-right: 125px;
+     box-sizing: border-box;
+     width: 100%;
+     text-align: center;
+     background-image: url(../img/bg.png);
+     background-size: cover;
+     color: white;
+     clip-path: url("#clipping");
+     z-index: -1;
+ }
+ /* AKHIR STYLING BAGIAN PERTAMA*/
+
+ /* STYLING BAGIAN KEDUA */
+ #section2 {
+     padding-top: 100px;
+     padding-bottom: 100px;
+     padding-left: 125px;
+     padding-right: 125px;
+     box-sizing: border-box;
+     width: 100%;
+     width: 100%;
+     text-align: center;
+     margin-top: -250px;
+     z-index: 1;
+     position: relative;
+ }
+
+ form {
+     width: 700px;
+     height: 150px;
+     box-sizing: border-box;
+     margin: 0 auto;
+     padding: 55px;
+     background-color: #F9F9F9;
+     box-shadow: 1px 1px 15px rgba(67, 38, 100, 0.15);
+ }
+
+ input[type=text] {
+     width: 500px;
+     height: 40px;
+     box-sizing: border-box;
+     border: 1px solid #000000;
+     border-radius: 100px;
+     padding-left: 25px;
+     padding-right: 25px;
+     background-color: #F9F9F9;
+     background-image: url(../img/search.png);
+     background-repeat: no-repeat;
+     background-size: 5%;
+     background-position: 96%;
+ }
+
+ .recipe {
+     display: inline-block;
+     width: 300px;
+     height: 300px;
+     margin: 20px;
+     background-color: #F9F9F9;
+     box-shadow: 1px 1px 15px rgba(67, 38, 100, 0.15);
+ }
+ /*styling img yang ada di class recipe*/
+
+ .recipe img {
+     width: 300px;
+     height: 200px;
+ }
+
+ a.next {
+     text-decoration: none;
+     color: #131919;
+ }
+ /* AKHIR STYLING BAGIAN KEDUA */
+ 
+ /* STYLING BAGIAN KETIGA */
+ #section3 {
+     padding-top: 50px;
+     padding-bottom: 50px;
+     box-sizing: border-box;
+     text-align: center;
+     background-color: #131919;
+     color: white;
+ }
+
+ #section3 a {
+     text-decoration: none;
+     width: 20px;
+     padding: 20px;
+     font-size: 15px;
+     background-color: white;
+     text-align: center;
+     border-radius: 50%;
+     color: #131919;
+     border: 1px solid #131919;
+ }
+
+  #section3 a:hover {
+     background-color: #131919;
+     color: white;
+     border: 1px solid white;
+ }
+ /* AKHIR STYLING BAGIAN KETIGA

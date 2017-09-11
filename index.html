@@ -4,19 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Recipes</title>
+    <!-- Memanggil file style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Memanggil fontawesome untuk icon pada sosial media http://fontawesome.io/ -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <style>
-    </style>
 </head>
 
 <body>
+    <!-- BAGIAN PERTAMA -->
+    <ul>
+        <li><a href="#home">Recipes</a></li>
+        <li style="float:right"><a href="#news">Contact</a></li>
+        <li style="float:right"><a href="#contact">Recipes</a></li>
+        <li style="float:right"><a href="#about">About</a></li>
+    </ul>
     <div id="section1">
         <!-- navbar -->
-
-        <!-- content -->
+        <!-- Judul Besar -->
         <h1>Traditional Foods Recipes</h1>
     </div>
+    <!-- AKHIR BAGIAN PERTAMA -->
+    <!-- SVG untuk membuat jadi miring -->
     <svg width="0" height="0" class=" drawsvg-initialized ">
         <defs>
             <clipPath id="clipping" clipPathUnits="objectBoundingBox">
@@ -24,11 +32,15 @@
             </clipPath>
         </defs>
     </svg>
+    <!-- BAGIAN KEDUA -->
     <div id="section2">
+        <!-- search -->
         <form>
-            <input type="text" name="search" placeholder="Search something">
+            <input type="text" placeholder="Search something">
         </form>
-        <h4>Popular Recipes</h4>
+        <!-- title -->
+        <h3>Popular Recipes</h3>
+        <!-- Card Makanan -->
         <div class="recipes">
             <div class="recipe">
                 <img src="img/makanan/1.jpg" alt="">
@@ -36,41 +48,41 @@
             </div>
             <div class="recipe">
                 <img src="img/makanan/2.jpg" alt="">
-                <h5>Ketoprak</h5>
+                <h5>Nasi Goreng</h5>
             </div>
             <div class="recipe">
                 <img src="img/makanan/3.jpg" alt="">
-                <h5>Nasi Rendang</h5>
+                <h5>Nasi Goreng</h5>
             </div>
             <div class="recipe">
                 <img src="img/makanan/4.jpg" alt="">
-                <h5>Nasi Padang</h5>
+                <h5>Nasi Goreng</h5>
             </div>
             <div class="recipe">
                 <img src="img/makanan/5.jpg" alt="">
-                <h5>Gado - Gado</h5>
+                <h5>Nasi Goreng</h5>
             </div>
             <div class="recipe">
                 <img src="img/makanan/6.jpg" alt="">
-                <h5>Kupat Tahu</h5>
+                <h5>Nasi Goreng</h5>
             </div>
         </div>
-        <h6><a href="	">SEE ALL RECIPES</a></h6>
+        <!-- Link -->
+        <a href="" class="next">SEE ALL RECIPES <i class="fa fa-angle-right" aria-hidden="true"></i>
+</a>
     </div>
-    <footer>
+    <!-- AKHIR BAGIAN KEDUA -->
+    <!-- BAGIAN KETIGA -->
+    <div id="section3">
         <h2>Recipes</h2>
         <p>&copy;2017 Copyright Recipes</p>
-        <div class="social-media" class="fa fa-facebook">
-            <a href="" class="fa fa-facebook">
-    		</a>
-            <a href="" class="fa fa-twitter">
-    	
-    		</a>
-            <a href="" class="fa fa-instagram">
-    
-    		</a>
+        <div class="social-media">
+            <a href="" class="fa fa-facebook"></a>
+            <a href="" class="fa fa-twitter"></a>
+            <a href="" class="fa fa-instagram"></a>
         </div>
-    </footer>
+    </div>
+    <!-- AKHIR BAGIAN KETIGA -->
 </body>
 
 </html>
